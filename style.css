@@ -33,7 +33,6 @@ body > main > article {
     justify-content: space-around;
 }
 
-
 #main-content > div {
     width: 70%;
 }
@@ -44,6 +43,20 @@ body > main > article {
     padding: 12px;
     border: 1px solid Black;
     border-radius: 10%;
+}
+
+.filter-ul {
+    list-style: none ;
+    text-decoration: none;
+}
+.filter-ul > li {
+    padding: 5px;
+}
+.filter-ul > li > a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px outset black; */
+    border-style: outset;
 }
 
 form {
