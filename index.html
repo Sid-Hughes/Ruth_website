@@ -21,6 +21,9 @@
                         <a href="" class="navbutton">Home</a> 
                     </li>
                     <li>
+                        <a href="" class="navbutton">Jewellery</a> 
+                    </li>
+                    <li>
                         <a href="" class="navbutton" >About Us</a>
                     </li>
                     <li>
@@ -30,41 +33,38 @@
             </nav>
         </header>
         
-        <!-- Filter bar on the left -->
-        <div  id="filter-bar">
-            <aside>
-                <section>
-                    <h4>Filter by Month</h4>
-                    <nav>
-                        <ul class="filter-ul">
-                            <li><a href="">Filter for January</a></li>
-                            <li><a href="">Filter for February</a></li>
-                            <li><a href="">Filter for March</a></li>
-                        </ul>
-                    </nav>
-                </section>
-                    <section>
-                        <h4>Filter by category</h4>
-                        <nav>
-                            <ul class="filter-ul">
-                                <li><a href="">Jumpers</a></li>
-                                <li><a href="">T-Shirts</a></li>
-                                <li><a href="">Hats</a></li>
-                                <li><a href="">Jewlery</a></li>
-                            </ul>
-                        </nav>
-                    </section>
-            </aside>
+        <div class="slider">
+            <div class="slide"><img src="image-s.png" alt="Image 1"></div>
+            <div class="slide"><img src="image-s.png" alt="Image 1"></div>
+            <div class="slide"><img src="image-s.png" alt="Image 1"></div>
+            <div class="slide"><img src="image-s.png" alt="Image 1"></div>
         </div>
-
-        <!-- Jewellery gallary on the right -->
-        <div id="jewellery-gallary">
+        <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+    
+        <!-- Jewellery gallery -->
+        <div id="jewellery-gallery">
             <article class="jewellery-item">
                 <img src="image-s.png" alt="">
                 <p>Premium ring</p>
             </article>
             <article class="jewellery-item">
-            <img src="image-s.png" alt="">
+                <img src="image-s.png" alt="">
+                <p>Premium bracelet</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium watch</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium ring</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
                 <p>Premium bracelet</p>
             </article>
             <article class="jewellery-item">
@@ -75,7 +75,6 @@
             <footer id="main-footer">
                 <h3>Created and designed by: Ruth Brushett</h2>
                 <img src="https://placebear.com/100/100" alt="Author image">
-                <h4>Last posted: 20/08/2024</h3>
                 <a href="http://www.ruthbrushett.com" target="_blank">Original website</a>
             </footer>
         </div>
