@@ -67,22 +67,22 @@ body {
     grid-area: gallery;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    /* gap: 1rem; */
     padding: 1rem;
 }
 
 .jewellery-item {
     background-color: white;
     text-align: center;
-    padding: 1rem;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
+    /* padding: 1rem; */
+    /* border: 1px solid lightgrey; */
+    /* border-radius: 5px; */
 }
 
 .jewellery-item img {
     width: 100%;
     height: auto;
-    border-radius: 10%;
+    /* border-radius: 10%; */
 }
 
 #main-footer{
