@@ -12,27 +12,20 @@
     <title>Ruth Brushett Designer Jewller</title>
 </head>
 <body>
-    <div id="grid-container">
-        <header id="main-header">
-            <h1 id="logo">Ruth Brushett Designer Jeweller</h1>
-            <nav>
-                <ul id="nav-ul">
-                    <li>
-                        <a href="" class="navbutton">Home</a> 
-                    </li>
-                    <li>
-                        <a href="" class="navbutton">Jewellery</a> 
-                    </li>
-                    <li>
-                        <a href="" class="navbutton" >About Us</a>
-                    </li>
-                    <li>
-                        <a href="" class="navbutton" >Contact</a>
-                    </li>
+    <header>
+        <nav>
+            <div class="wrapper">
+                <div class="logo"><a href="#">Logo</a></div>
+                <ul class="nav-links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Jewellery</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
-            </nav>
-        </header>
-        
+            </div>
+        </nav>
+    </header>
+    <div id="grid-container">
         <div class="slider">
             <img src="image-s.png" alt="Image 1">
             <img src="image-s.png" alt="Image 1">
@@ -43,7 +36,7 @@
             <span class="dot" onclick="changeSlide(1)"></span>
             <span class="dot" onclick="changeSlide(2)"></span>
         </div>
-    
+
         <!-- Jewellery gallery -->
         <div id="jewellery-gallery">
             <article class="jewellery-item">
