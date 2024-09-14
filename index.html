@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
@@ -15,13 +17,43 @@
     <header>
         <nav>
             <div class="wrapper">
-                <div class="logo"><a href="#">Logo</a></div>
+                <div class="logo"><a href="#">Ruth Brushett Designer Jeweller</a></div>
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
                 <ul class="nav-links">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Jewellery</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#" class="desktop-item">Jewellery</a>
+                        <input type="checkbox" id="showMega">
+                        <label for="showMega" class="mobile-item">Mega Menu</label>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <header>Jewellery</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Type 1</a></li>
+                                        <li><a href="#">Type 2</a></li>
+                                        <li><a href="#">Type 3</a></li>
+                                        <li><a href="#">Type 4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Bespoke Services</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Service 1</a></li>
+                                        <li><a href="#">Service 2</a></li>
+                                        <li><a href="#">Service 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
             </div>
         </nav>
     </header>
@@ -39,6 +71,54 @@
 
         <!-- Jewellery gallery -->
         <div id="jewellery-gallery">
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium ring</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium bracelet</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium watch</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium ring</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium bracelet</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium watch</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium ring</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium bracelet</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium watch</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium ring</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium bracelet</p>
+            </article>
+            <article class="jewellery-item">
+                <img src="image-s.png" alt="">
+                <p>Premium watch</p>
+            </article>
             <article class="jewellery-item">
                 <img src="image-s.png" alt="">
                 <p>Premium ring</p>
